@@ -50,3 +50,5 @@ description: 附加一段文章摘要，字数最好在140字以内，会出现�
 ``` 
   答案是在合适的位置加上<!--more-->即可
 ```
+
+[参考](http://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html)
