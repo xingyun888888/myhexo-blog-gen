@@ -3,7 +3,6 @@ title: 史上最全的mime-type大全
 date: 2016-07-30 15:07:02
 categories: 前端综合
 tags: mime,type,列表,最全
-description: 本文首发于 http://liuxianan.com，原文地址：http://blog.liuxianan.com/mime-type.html，转载请注明署名“liuxianan”并在显眼位置保留原文链接，谢谢！
 ---
 
 # 什么是mime-type

@@ -13,3 +13,6 @@ tags:
   [maven阿里云设置](http://jiaxiaoxuan.top/2017/09/24/maven%E9%98%BF%E9%87%8C%E4%BA%91%E8%AE%BE%E7%BD%AE/#more)
   
   [jvm调优](http://jiaxiaoxuan.top/2017/09/24/jvm%E8%B0%83%E4%BC%98/)
+  
+  
+  [linux如何查看端口号被哪个进程占用](https://www.cnblogs.com/CEO-H/p/7794306.html)

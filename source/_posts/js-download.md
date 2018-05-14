@@ -3,7 +3,6 @@ title: JS弹出下载对话框以及实现常见文件类型的下载
 date: 2017-02-16 21:09:19
 categories: JavaScript
 tags: javascript,saveas,下载,对话框
-description: 本文首发于 http://liuxianan.com，原文地址：http://blog.liuxianan.com/js-download.html，转载请注明署名“liuxianan”并在显眼位置保留原文链接，谢谢！
 ---
 
 # 写在前面

@@ -3,8 +3,6 @@ title: nginx配置总结
 date: 2017-04-18 15:54:12
 categories: nginx
 tags: nginx
-description: 本文首发于 http://liuxianan.com，原文地址：http://blog.liuxianan.com/nginx-config.html，转载请注明署名“liuxianan”并在显眼位置保留原文链接，谢谢！
-author: liuxianan
 ---
 
 # nginx的全局变量
