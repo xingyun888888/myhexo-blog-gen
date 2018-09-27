@@ -86,16 +86,16 @@ Object.assign(target, ...sources)
       } 
       return newObj;
   }
-  第三方库实现的深浅复制（推荐看文档源码，这里就不详讲了）
+  第三方库实现的深浅复制----（推荐看文档源码，这里就不详讲了）
   
   jQuery.extend
-  jQuery.extend()
+  jQuery.extend()  
   
   lodash 中 _.clone() / _.cloneDeep()
   _.clone()
   _.cloneDeep()
 ```
-
+  ------- -- -  - -  - --  -- - - - -  -- - - 
 
 - 总结
 

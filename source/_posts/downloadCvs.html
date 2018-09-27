@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function radarDLBut(filename) {
+        //tdstr用于装载处理后的数据，不同的数据源处理方式可能不同；","用于列的分割，"\n"用于跳转到下一行
+        var table = document.all.Data;//Data即<table>的ID
+        var hang = table.rows.length;//取数据源行数
+        var lie = table.rows[0].cells.length;//取数据源列数
+        var tdstr = "";
+        for (i = 0; i < hang; ++i) {
+            for (j = 0; j < lie; ++j) {
+                tdstr += table.rows[i].cells[j].innerText + ",";
+            }
+            tdstr = tdstr.substring(0, tdstr.length - 1) + "\n";
+        }
+
+        var csvContent = "data:text/csv;charset=utf-8,\ufeff";//\ufeff去除中文数据乱码
+        if (window.navigator.msSaveOrOpenBlob) {
+            csvContent = "\ufeff";
+        }
+        csvContent += tdstr;
+        if (window.navigator.msSaveOrOpenBlob) {
+            // if browser is IE
+            var blob = new Blob([decodeURIComponent(encodeURI(csvContent))], {
+                type: "text/csv;charset=utf-8;"
+            });
+            navigator.msSaveBlob(blob, filename);//filename文件名包括扩展名，下载路径为浏览器默认路径
+        } else {
+            var encodedUri = encodeURI(csvContent);//encodeURI识别转义符
+            var link = document.createElement("a");
+            link.setAttribute("href", encodedUri);
+            link.setAttribute("download", filename);
+
+            document.body.appendChild(link);
+            link.click();
+        }
+    };
+    radarDLBut("aaa.exl");
+</script>
+</body>
+</html>

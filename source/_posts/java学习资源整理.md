@@ -45,4 +45,16 @@ tags: java
 
 20.[Java 之 JUC](https://www.cnblogs.com/linkworld/p/7819270.html)
 
-21. ........。。。。。。。。。
+21.[maven－assembly-plugin 打包的配置](https://blog.csdn.net/u011955252/article/details/78927175)
+
+22.[web项目读取classpath下面文件心得总结](https://blog.csdn.net/u012260707/article/details/51887626)
+
+23.[spring学习(重要)](http://www.cnblogs.com/mesopotamia/category/753045.html)
+
+24.[spring的扩展点](http://loveshisong.cn/编程技术/2016-11-22-Spring的扩展点.html)
+
+25.[spring-cloud学习视频](https://ke.qq.com/webcourse/index.html?mmticket=#taid=1971218190452217&vid=e1424zq6kdw&course_id=280057&term_id=100331701)
+
+26.[Spring IOC 容器源码分析系列文章导读](http://www.coolblog.xyz/2018/05/30/Spring-IOC-%E5%AE%B9%E5%99%A8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0%E5%AF%BC%E8%AF%BB/)
+.....................................
+

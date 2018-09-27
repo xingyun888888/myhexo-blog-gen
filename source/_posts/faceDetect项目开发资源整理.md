@@ -34,3 +34,5 @@ tags: java
 - 11.[细说 Angular 2+ 的表单（二）：响应式表单](https://juejin.im/post/593fa043a0bb9f006b684df4#heading-3)
 
 - 12.[Angular4模板式表单、响应式表单、表单状态字段](https://blog.csdn.net/qq_35765126/article/details/77102365)
+
+- 13.[【转】使用ViewContainerRef探索Angular DOM操作技术](https://www.cnblogs.com/hxling/articles/7794799.html)
